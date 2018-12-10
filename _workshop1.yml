@@ -5,10 +5,10 @@ content:
   url: https://raw.githubusercontent.com/siamaksade/workshopper-template/master
 
 vars:
-  OPENSHIFT_DOCS_BASE: "https://docs.openshift.com/container-platform/3.7"
-  OPENSHIFT_MASTER_URL: "http://192.168.1.100:8443"
-  OPENSHIFT_USERNAME: "developer"
-  OPENSHIFT_PASSWORD: "password"
+  Lab_VM_DNS: "https://45.12.35.56"
+  Linux_VM_DNS: "http://192.168.1.100"
+  Azure_User_Id: "testuser@test.onmicrosoft.com"
+  Azure_User_PASSWORD: "password"
   USER_ID: "12345"
 
   
