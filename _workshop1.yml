@@ -2,7 +2,7 @@ id: "workshop1"
 name: "CloudLabs Demo Workshop"
 
 content:
-  url: https://raw.githubusercontent.com/siamaksade/workshopper-template/master
+  url: https://raw.githubusercontent.com/PraveenAnil/workshopper-template/master
 
 vars:
   Lab_VM_DNS: "https://45.12.35.56"
