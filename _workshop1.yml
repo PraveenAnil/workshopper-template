@@ -1,16 +1,20 @@
 id: "workshop1"
-name: "CloudLabs Demo Workshop"
+name: "Cloudlabs Demo Workshop"
 
 content:
-  url: https://raw.githubusercontent.com/PraveenAnil/workshopper-template/master
+  url: https://raw.githubusercontent.com/siamaksade/workshopper-template/master
 
 vars:
+  OPENSHIFT_DOCS_BASE: "https://docs.openshift.com/container-platform/3.7"
+  OPENSHIFT_MASTER_URL: "http://192.168.1.100:8443"
+  OPENSHIFT_USERNAME: "developer"
+  OPENSHIFT_PASSWORD: "password"
+  JAVA_APP: true
   LAB_VM_DNS: "https://45.12.35.56"
   LINUX_VM_DNS: "http://192.168.1.100"
   AZURE_USER_ID: "testuser@test.onmicrosoft.com"
   AZURE_USER_PASSWORD: "password"
   USER_ID: "12345"
-
   
 modules:
   activate:
